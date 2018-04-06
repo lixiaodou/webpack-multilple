@@ -1,0 +1,27 @@
+{
+  "code": 0,
+  "codeInfo": "",
+  "params": {
+    "pid": 362
+  },
+  "data": [
+    {
+      "Tdw_ModelInd_Offline_Count": "44",
+      "Tdw_ModelInd_Realtime_Count": "38",
+      "Idip_ModelInd_Realtime_Count": "4",
+      "Idip_ModelInd_Offline_Count": "4",
+      "Redis_ModelInd_Realtime_Count": "0",
+      "Redis_ModelInd_Offline_Count": "4",
+      "Tdw_CalculateInd_Offline_Count": "64",
+      "Tdw_CalculateInd_Realtime_Count": "64",
+      "Idip_CalculateInd_Offline_Count": "8",
+      "Idip_CalculateInd_Realtime_Count": "8",
+      "Redis_CalculateInd_Offline_Count": "4",
+      "Redis_CalculateInd_Realtime_Count": "0",
+      "Tdw_Source_Count": "35",
+      "Idip_Source_Count": "4",
+      "Redis_Source_Count": "4"
+    }
+  ],
+  "backRequestReturns": []
+}
