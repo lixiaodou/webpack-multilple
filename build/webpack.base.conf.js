@@ -24,6 +24,16 @@ module.exports = {
   },
   module: {
     rules: [
+      // html中引用了img等，需要用到这个配置
+//       {
+//         test: /\.html$/,
+//         use: [{
+//           loader: 'html-loader',
+//           options: {
+//             minimize: true
+//           }
+//         }],
+//       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
