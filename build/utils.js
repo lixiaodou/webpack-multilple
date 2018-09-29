@@ -12,7 +12,9 @@ exports.assetsPath = function (_path) {
 
 exports.cssLoaders = function (options) {
   options = options || {}
-
+  var styleLoader = {
+    loader: 'style-loader'
+  }
   var cssLoader = {
     loader: 'css-loader',
     options: {
@@ -23,7 +25,7 @@ exports.cssLoaders = function (options) {
 
   // generate loader string to be used with extract text plugin
   function generateLoaders (loader, loaderOptions) {
-    var loaders = [cssLoader]
+    var loaders = [styleLoader, cssLoader]
     if (loader) {
       loaders.push({
         loader: loader + '-loader',
