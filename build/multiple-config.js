@@ -20,7 +20,8 @@ if (config.multiple && config.multiple.mulipleFlag) {
         basename = path.basename(view, extname);//文件名
         pathname = path.join(dirname, basename);//文件路径
         var key = pathname.replace(viewBase, jsBase).replace(/\\/g, '.')
-        console.log('view', view)
+        // 下面使用的filename如果页面比较少的话，可以使用下面这个方法
+        // 但是页面比较多的话view.replace('./src/views/', '')可以用这个,这样页面可以分目录和模块
         htmlWebpackPlugin.push(new HtmlWebpackPlugin({
             filename: path.basename(view),
             template: view,
